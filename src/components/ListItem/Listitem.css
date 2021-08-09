@@ -1,0 +1,8 @@
+.list__item {
+  margin: 7px 0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(216, 36%, 96%);
+  border-radius: 5px;
+}
