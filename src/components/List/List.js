@@ -18,6 +18,13 @@ function List() {
             addItem();
         }
     }
+
+    const deleteItem = (id) => {
+
+        console.log("id", id)
+        const newItems = items.filter((item, index) => index !== id)
+        setItems(newItems)
+    }
      return (
         <div className='list'>
         <div className='input'>
@@ -26,9 +33,9 @@ function List() {
         </div>
 
         <div className='listItems'>
-            {items.map((item) => {
+            {items.map((item, index) => {
                 return (
-                    <Listitem value={item}/>
+                    <Listitem value={item} key={index} index={index} deleteItem={deleteItem}/>
                 )
             }
             )}

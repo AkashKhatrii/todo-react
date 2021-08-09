@@ -2,7 +2,7 @@
   padding: 10px;
   border-radius: 10px;
   background-color: white;
-  width: 400px;
+  width: 350px;
 }
 
 .input {
@@ -10,7 +10,7 @@
   justify-content: space-between;
 }
 .input input {
-  width: 315px;
+  width: 265px;
   padding: 5px;
   border-radius: 5px;
   justify-self: flex-start;
@@ -19,6 +19,7 @@
 .input button {
   justify-self: flex-end;
   border: none;
+  cursor: pointer;
   width: 50px;
   padding: 7px 12px;
   background-color: black;

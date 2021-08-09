@@ -6,3 +6,8 @@
   background-color: hsl(216, 36%, 96%);
   border-radius: 5px;
 }
+
+.list__item button {
+  border: none;
+  cursor: pointer;
+}
