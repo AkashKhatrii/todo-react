@@ -8,6 +8,10 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h3 {
+  margin-top: 50px;
+}
+
 .home__container {
   height: 100vh;
   width: 100%;

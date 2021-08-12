@@ -6,6 +6,7 @@ function App() {
         <div className='home__container'>
         <h1>ToDo - React</h1>
             <List/>
+            <h3>Developed by Akash Khatri</h3>
         </div>
     )
 }
